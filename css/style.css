@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans";
+}
+
+html{
+	height: 100%;
+}
+
+/** Divs Gerais **/
+.clear{
+	clear: both;
+}
+
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* Header */
+header{
+	background-color: #6D6D6D;
+	padding: 10px 2%;
+}
+
+.logo1{
+	float: left;
+	width: 160px;
+	height: 60px;
+	background-image: url('../images/logo.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.logo2{
+	float: right;
+	width: 160px;
+	height: 60px;
+	background-image: url('../images/logo.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Section cover-form */
+section.cover-form{
+	width: 100%;
+}
+
+.bg{
+	position: relative;
+	height: 550px;
+	background-size: cover;
+	background-position: center;
+	background-image: url('../images/bg-form.jpeg');
+}
+
+.form-container{
+	position: absolute;
+	right: 30px;
+	top: 0;
+	width: 400px;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.6);
+}
+
+.form-container h2{
+	font-weight: normal; 
+	padding: 25px 15px;
+	color: black;
+	font-size: 18px;
+	background-color: rgba(210,210,210, 0.7);
+}
+
+.form-container form{
+	padding: 20px;
+	margin-top: 8px;
+}
+
+.form-wraper:not(:first-child){
+	margin-top: 40px
+}
+
+.form-wraper:last-child{
+	margin-top: 20px;
+}
+
+.form-container form p{
+	font-size: 14px;
+	color: black;
+}
+
+.form-container form input[type=text],
+.form-container form input[type=email],
+.form-container form input[type=tel]{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	border: 0;
+}
+
+.form-container form input[type=submit]{
+	background-color: #033C50;
+	text-transform: uppercase;
+	color: white;
+	font-weight: normal; 
+	width: 100%;
+	font-size: 16px;
+	height: 50px;
+	cursor: pointer;
+	border: 0;
+}
+
+.form-container form input[type=text],
+.form-container form input[type=email],
+.form-container form input[type=tel],
+.form-container form input[type=submit]:focus{
+	outline: none;
+}
+
+/* Section chamada */
+section.chamada{
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+}
+
+section.chamada .container{
+	padding: 40px 2%;
+	background-color: #D6D6D6;
+}
+
+section.chamada h2{
+	width: 96%;
+	max-width: 700px;
+	display: inline-block;
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+section.chamada p{
+	font-size: 21.5px;
+	color: black;
+}
+
+/* Section mosaico */
+.flex-mosaico{
+	display: flex;
+}
+
+.item-1-mosaico{
+	background-position: center;
+	background-size: cover;
+	width: 60%;
+	height: 350px;
+}
+
+.item-2-mosaico{
+	padding: 150px 40px;
+	width: 40%;
+	background-color: #E1F2FD;
+}
+
+/* Section servicos */
+section.servicos{
+	width: 100%;
+	text-align: center;
+}
+
+section.servicos .container{
+	padding: 40px 2%;
+	background-color: #D6D6D6;
+}
+
+section.servicos h2{
+	width: 96%;
+	max-width: 700px;
+	display: inline-block;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+section.servicos p{
+	width: 96%;
+	margin-top: 20px;
+	font-size: 17.5px;
+	color: black;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+/* Section Contato */
+section.contato{
+	padding: 50px 2%;
+	text-align: center;
+	background: #414141;
+}
+
+.footer-container{
+	width: 50%;
+	float: left;
+}
+
+.footer-block{
+	padding: 0 15px;
+}
+
+.footer-block h2{
+	text-align: center;
+	font-weight: normal;
+	color: white;
+	font-size: 18px;
+}
+
+.footer-block p{
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+.footer-block a{
+	text-decoration: none;
+	color: white;
+}
+
+
+/* Footer */
+footer{
+	text-align: center;
+	padding: 20px 2%;
+	background-color: #252526;
+}
+
+footer p{
+	margin-top: 8px;
+	color: white;
+}
+
+footer img{
+	margin-top: 15px;
+	width: 120px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 960px){
+	.bg{
+		height: auto;
+		padding: 20px;
+		text-align: center;
+	}
+
+	.form-container{
+		height: auto;
+		width: 96%;
+		max-width: 400px;
+		position: static;
+		display: inline-block;
+	}
+
+	.form-container form input[type=text],
+	.form-container form input[type=email],
+	.form-container form input[type=tel]{
+		border: 1px solid #ccc;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.form-container form p{
+		text-align: left;
+	}
+
+	.flex-mosaico{
+		display: block;
+	}
+
+	.item-1-mosaico{
+		padding-top: 100%;
+		width: 100%;
+	}
+
+	.item-2-mosaico{
+		text-align: justify;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 510px){
+	header{
+		text-align: center;
+	}
+
+	.logo1{
+		margin-top: 10px;
+		float: none;
+		display: inline-block;
+	}
+
+	.logo2{
+		display: none;
+	}
+}
