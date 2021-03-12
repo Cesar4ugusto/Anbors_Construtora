@@ -12,8 +12,11 @@ Sou estudante de Análise e Desenvolvimento de Sistemas focado no desenvolviment
 ## Este projeto
 
 > Status do Projeto: Em desenvolvimento :warning:
+
 .
+
 .
+
 Neste projeto a instalação do `PHPMailer` foi feita via [Composer](https://getcomposer.org).
 
 Para usar o `PHPMailer` siga as instruções de intalação disponibilizadas em [PHPMailer](https://github.com/PHPMailer/PHPMailer).
