@@ -4,11 +4,20 @@
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&linkhttps://www.linkedin.com/in/c%C3%A9sar-augusto-aa8143160//)](https://www.linkedin.com/in/c%C3%A9sar-augusto-aa8143160//)
 
 ## Sobre mim
+
+Olá, me chamo César Augusto.
+
 Sou estudante de Análise e Desenvolvimento de Sistemas focado no desenvolvimentode soluções web Front-End e Back-End.
 
 ## Este projeto
+
+> Status do Projeto: Em desenvolvimento :warning:
 .
 .
 Neste projeto a instalação do `PHPMailer` foi feita via [Composer](https://getcomposer.org).
 
 Para usar o `PHPMailer` siga as instruções de intalação disponibilizadas em [PHPMailer](https://github.com/PHPMailer/PHPMailer).
+
+### Licença
+
+Todos os ativos e código são de domínio público, a menos que especificado de outra forma.
