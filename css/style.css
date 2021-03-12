@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Open Sans";
+	font-family: "Montserrat";
 }
 
 html{
@@ -21,6 +21,15 @@ html{
 }
 
 /* Pagina de erro */
+.erro{
+	position: relative;
+	padding: 70px 0;
+}
+
+.erro h2{
+	text-align: center;
+	color: black;
+}
 
 .fixed{
 	position: fixed;
